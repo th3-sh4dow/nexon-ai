@@ -4,16 +4,20 @@ import UseCases from "@/components/UseCases";
 import TechSpecs from "@/components/TechSpecs";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Hero />
-      <Features />
-      <UseCases />
-      <TechSpecs />
-      <CTA />
-      <Footer />
+      <Navbar />
+      <div className="pt-16">
+        <Hero />
+        <Features />
+        <UseCases />
+        <TechSpecs />
+        <CTA />
+        <Footer />
+      </div>
     </div>
   );
 };
