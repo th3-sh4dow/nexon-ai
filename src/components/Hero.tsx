@@ -23,7 +23,7 @@ const Hero = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
-            <span className="text-sm text-muted-foreground">Next-Gen AI Assistant for Windows</span>
+            <span className="text-sm text-muted-foreground">Free Trial • No Registration • Instant Download</span>
           </div>
 
           {/* Main Heading */}
@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Button variant="hero" size="xl" className="group">
               <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              Download NEXON AI
+              Try Free Now
             </Button>
             <Button variant="heroOutline" size="xl" className="group">
               <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
@@ -57,15 +57,15 @@ const Hero = () => {
           <div className="flex flex-wrap items-center justify-center gap-8 pt-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              <span>Free Trial Available</span>
+              <span>100% Free Trial</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              <span>Windows 10/11</span>
+              <span>No Registration Required</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              <span>Privacy First</span>
+              <span>Instant Download</span>
             </div>
           </div>
         </div>
